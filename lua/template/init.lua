@@ -79,7 +79,7 @@ function M.insert_template()
 	end)
 end
 
-vim.api.create_user_command("Template", function()
+vim.api.nvim_create_user_command("Template", function()
 	require("template").insert_template()
 end, {})
 

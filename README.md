@@ -66,13 +66,13 @@ The line containing cursor will be trimmed to just its indentation, and the curs
     Done!
 
 ## 📁 Example Template Directory
-
+```plaintext
 ~/.config/nvim/lua/templates/
 ├── ai.py
 ├── cp.cpp
 ├── game.cpp
 └── operation.fish
-
+```
 ## 💡 Tips
 
     Supports multiple templates per extension — you'll get a picker.

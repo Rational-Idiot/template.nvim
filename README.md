@@ -34,11 +34,11 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 Place template files inside your configured directory, named like:
 
-cpp.cpp
-py.py
-sh.sh
+cp.cpp
+ai.py
+utility.sh
 
-Have a line that says just "\_\_cursor\_\_" to mark the positio where you want to be placed after the template is inserted
+Have a line that says just "\_\_cursor\_\_" {it can also be commented} to mark the positio where you want to be placed after the template is inserted
 
 Example:
 

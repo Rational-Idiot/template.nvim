@@ -65,7 +65,7 @@ function M.insert_template()
 		vim.api.nvim_buf_set_lines(0, 0, -1, false, lines)
 
 		for i, line in ipairs(lines) do
-			local s = string.find(line, "cursor")
+			local s = string.find(line, "__cursor__")
 			if s then
 				local indent = line:match("^%s*") or ""
 				vim.api.nvim_buf_set_lines(0, i - 1, i, false, { indent })
